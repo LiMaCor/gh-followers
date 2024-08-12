@@ -11,10 +11,10 @@ struct GHFollowersTabView: View {
     var body: some View {
         TabView {
             SearchView()
-                .tabItem { Label("Search", systemImage: "magnifyingglass.circle.fill")}
+                .tabItem { Label("Search", systemImage: "magnifyingglass.circle.fill") }
             
             FavoritesView()
-                .tabItem { Label("Favorites", systemImage: "star.fill")}
+                .tabItem { Label("Favorites", systemImage: "star.fill") }
         }
     }
 }
