@@ -19,10 +19,21 @@ struct FollowerMockData {
                                          avatarUrl: ""
     )
     
+    static let sampleFollower1 = Follower(login: "sallen0400",
+                                          avatarUrl: ""
+    )
+    
+    static let sampleFollower2 = Follower(login: "rurioh",
+                                          avatarUrl: ""
+    )
+    
+    static let sampleFollower3 = Follower(login: "ramitse",
+                                          avatarUrl: ""
+    )
+    
     static let followers = [sampleFollower,
-                            sampleFollower,
-                            sampleFollower,
-                            sampleFollower,
-                            sampleFollower
+                            sampleFollower1,
+                            sampleFollower2,
+                            sampleFollower3
     ]
 }

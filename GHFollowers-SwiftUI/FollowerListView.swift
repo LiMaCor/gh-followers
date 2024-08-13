@@ -12,17 +12,20 @@ struct FollowerListView: View {
     @StateObject var viewModel = FollowerListViewModel()
     
     var body: some View {
-        ZStack {
-            NavigationView {
-                List(viewModel.followers) { follower in
-                    FollowerDetailView(follower: follower)
+        ScrollView {
+            LazyVGrid(columns: viewModel.columns) {
+                ForEach(viewModel.followers) { follower in
+                    NavigationLink {
+                        FollowerDetailView(follower: follower)
+                    } label: {
+                        FollowerCell(follower: follower)
+                    }
                 }
             }
-            .task {
-                viewModel.getFollowers()
-            }
         }
-        .navigationTitle("🔎 Search")
+        .task {
+            viewModel.getFollowers()
+        }
     }
 }
 

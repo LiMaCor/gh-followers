@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@MainActor final class FollowerListViewModel: ObservableObject {
+final class FollowerListViewModel: ObservableObject {
     
     @Published var followers: [Follower] = []
     
@@ -17,7 +17,7 @@ import SwiftUI
     ]
     
     func getFollowers() {
-        followers.append(contentsOf: FollowerMockData.followers)
+        followers = FollowerMockData.followers
     }
     
 }
