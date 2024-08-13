@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct FollowerListView: View {
+    
+    @StateObject var viewModel = FollowerListViewModel()
+    
     var body: some View {
-        NavigationView {
-            ZStack {
-                
+        ZStack {
+            NavigationView {
+                List(viewModel.followers) { follower in
+                    FollowerDetailView(follower: follower)
+                }
             }
-            .navigationTitle("🔎 Search")
+            .task {
+                viewModel.getFollowers()
+            }
         }
+        .navigationTitle("🔎 Search")
     }
 }
 
