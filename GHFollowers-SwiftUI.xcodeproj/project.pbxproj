@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90515122C6D1C0F0025D218 /* FavoriteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */; };
+		B9660EF12C6B9AEF00722962 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF02C6B9AEF00722962 /* User.swift */; };
+		B9660EF32C6B9B4500722962 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF22C6B9B4500722962 /* Follower.swift */; };
+		B9660EF72C6BA14300722962 /* FollowerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */; };
+		B9660EF92C6BA81C00722962 /* FollowerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF82C6BA81C00722962 /* FollowerDetailView.swift */; };
+		B9660EFB2C6BB39900722962 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EFA2C6BB39900722962 /* FollowerCell.swift */; };
 		B99DA7E22C6A7A7D00F8F159 /* GHFollowers_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99DA7E12C6A7A7D00F8F159 /* GHFollowers_SwiftUIApp.swift */; };
-		B99DA7E42C6A7A7D00F8F159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99DA7E32C6A7A7D00F8F159 /* ContentView.swift */; };
+		B99DA7E42C6A7A7D00F8F159 /* GHFollowersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99DA7E32C6A7A7D00F8F159 /* GHFollowersTabView.swift */; };
 		B99DA7E62C6A7A8000F8F159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99DA7E52C6A7A8000F8F159 /* Assets.xcassets */; };
 		B99DA7E92C6A7A8000F8F159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99DA7E82C6A7A8000F8F159 /* Preview Assets.xcassets */; };
+		B9D514B32C6A7E6300C5F790 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D514B22C6A7E6300C5F790 /* SearchView.swift */; };
+		B9D514B52C6A7E7500C5F790 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D514B42C6A7E7500C5F790 /* FavoritesView.swift */; };
+		B9D514B72C6A84E600C5F790 /* FollowerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D514B62C6A84E600C5F790 /* FollowerListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListCell.swift; sourceTree = "<group>"; };
+		B9660EF02C6B9AEF00722962 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B9660EF22C6B9B4500722962 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewModel.swift; sourceTree = "<group>"; };
+		B9660EF82C6BA81C00722962 /* FollowerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerDetailView.swift; sourceTree = "<group>"; };
+		B9660EFA2C6BB39900722962 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B99DA7DE2C6A7A7D00F8F159 /* GHFollowers-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHFollowers-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99DA7E12C6A7A7D00F8F159 /* GHFollowers_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowers_SwiftUIApp.swift; sourceTree = "<group>"; };
-		B99DA7E32C6A7A7D00F8F159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B99DA7E32C6A7A7D00F8F159 /* GHFollowersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowersTabView.swift; sourceTree = "<group>"; };
 		B99DA7E52C6A7A8000F8F159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99DA7E82C6A7A8000F8F159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9D514B22C6A7E6300C5F790 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B9D514B42C6A7E7500C5F790 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B9D514B62C6A84E600C5F790 /* FollowerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,16 @@
 			isa = PBXGroup;
 			children = (
 				B99DA7E12C6A7A7D00F8F159 /* GHFollowers_SwiftUIApp.swift */,
-				B99DA7E32C6A7A7D00F8F159 /* ContentView.swift */,
+				B99DA7E32C6A7A7D00F8F159 /* GHFollowersTabView.swift */,
+				B9D514B22C6A7E6300C5F790 /* SearchView.swift */,
+				B9D514B42C6A7E7500C5F790 /* FavoritesView.swift */,
+				B9D514B62C6A84E600C5F790 /* FollowerListView.swift */,
+				B9660EF02C6B9AEF00722962 /* User.swift */,
+				B9660EF22C6B9B4500722962 /* Follower.swift */,
+				B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */,
+				B9660EF82C6BA81C00722962 /* FollowerDetailView.swift */,
+				B9660EFA2C6BB39900722962 /* FollowerCell.swift */,
+				B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */,
 				B99DA7E52C6A7A8000F8F159 /* Assets.xcassets */,
 				B99DA7E72C6A7A8000F8F159 /* Preview Content */,
 			);
@@ -137,7 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B99DA7E42C6A7A7D00F8F159 /* ContentView.swift in Sources */,
+				B9660EF72C6BA14300722962 /* FollowerListViewModel.swift in Sources */,
+				B9D514B52C6A7E7500C5F790 /* FavoritesView.swift in Sources */,
+				B90515122C6D1C0F0025D218 /* FavoriteListCell.swift in Sources */,
+				B9660EF92C6BA81C00722962 /* FollowerDetailView.swift in Sources */,
+				B9660EF32C6B9B4500722962 /* Follower.swift in Sources */,
+				B9D514B72C6A84E600C5F790 /* FollowerListView.swift in Sources */,
+				B9660EF12C6B9AEF00722962 /* User.swift in Sources */,
+				B99DA7E42C6A7A7D00F8F159 /* GHFollowersTabView.swift in Sources */,
+				B9660EFB2C6BB39900722962 /* FollowerCell.swift in Sources */,
+				B9D514B32C6A7E6300C5F790 /* SearchView.swift in Sources */,
 				B99DA7E22C6A7A7D00F8F159 /* GHFollowers_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
