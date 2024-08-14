@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90515122C6D1C0F0025D218 /* FavoriteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */; };
 		B9660EF12C6B9AEF00722962 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF02C6B9AEF00722962 /* User.swift */; };
 		B9660EF32C6B9B4500722962 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF22C6B9B4500722962 /* Follower.swift */; };
 		B9660EF72C6BA14300722962 /* FollowerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListCell.swift; sourceTree = "<group>"; };
 		B9660EF02C6B9AEF00722962 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B9660EF22C6B9B4500722962 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewModel.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */,
 				B9660EF82C6BA81C00722962 /* FollowerDetailView.swift */,
 				B9660EFA2C6BB39900722962 /* FollowerCell.swift */,
+				B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */,
 				B99DA7E52C6A7A8000F8F159 /* Assets.xcassets */,
 				B99DA7E72C6A7A8000F8F159 /* Preview Content */,
 			);
@@ -163,6 +166,7 @@
 			files = (
 				B9660EF72C6BA14300722962 /* FollowerListViewModel.swift in Sources */,
 				B9D514B52C6A7E7500C5F790 /* FavoritesView.swift in Sources */,
+				B90515122C6D1C0F0025D218 /* FavoriteListCell.swift in Sources */,
 				B9660EF92C6BA81C00722962 /* FollowerDetailView.swift in Sources */,
 				B9660EF32C6B9B4500722962 /* Follower.swift in Sources */,
 				B9D514B72C6A84E600C5F790 /* FollowerListView.swift in Sources */,
