@@ -35,6 +35,4 @@ struct UserMockData {
                                  followers: 2,
                                  createdAt: Date()
     )
-    
-    static let users = [sampleUser, sampleUser, sampleUser]
 }

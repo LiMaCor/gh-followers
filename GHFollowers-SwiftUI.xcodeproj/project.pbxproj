@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B90515122C6D1C0F0025D218 /* FavoriteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */; };
+		B905151D2C6D27E20025D218 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905151C2C6D27E20025D218 /* NetworkManager.swift */; };
+		B9182AF02C739830008B37E3 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9182AEF2C739830008B37E3 /* GFError.swift */; };
 		B9660EF12C6B9AEF00722962 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF02C6B9AEF00722962 /* User.swift */; };
 		B9660EF32C6B9B4500722962 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF22C6B9B4500722962 /* Follower.swift */; };
 		B9660EF72C6BA14300722962 /* FollowerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListCell.swift; sourceTree = "<group>"; };
+		B905151C2C6D27E20025D218 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B9182AEF2C739830008B37E3 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		B9660EF02C6B9AEF00722962 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B9660EF22C6B9B4500722962 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewModel.swift; sourceTree = "<group>"; };
@@ -50,6 +54,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B90515132C6D26DD0025D218 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B90515172C6D27810025D218 /* FollowerView */,
+				B90515152C6D27410025D218 /* SearchView */,
+				B90515142C6D27170025D218 /* FavoriteView */,
+				B99DA7E32C6A7A7D00F8F159 /* GHFollowersTabView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B90515142C6D27170025D218 /* FavoriteView */ = {
+			isa = PBXGroup;
+			children = (
+				B9D514B42C6A7E7500C5F790 /* FavoritesView.swift */,
+			);
+			path = FavoriteView;
+			sourceTree = "<group>";
+		};
+		B90515152C6D27410025D218 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				B9D514B22C6A7E6300C5F790 /* SearchView.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		B90515162C6D27600025D218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9660EF02C6B9AEF00722962 /* User.swift */,
+				B9660EF22C6B9B4500722962 /* Follower.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B90515172C6D27810025D218 /* FollowerView */ = {
+			isa = PBXGroup;
+			children = (
+				B9660EF82C6BA81C00722962 /* FollowerDetailView.swift */,
+				B9D514B62C6A84E600C5F790 /* FollowerListView.swift */,
+				B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */,
+			);
+			path = FollowerView;
+			sourceTree = "<group>";
+		};
+		B90515182C6D27980025D218 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B90515192C6D279F0025D218 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B90515192C6D279F0025D218 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B9660EFA2C6BB39900722962 /* FollowerCell.swift */,
+				B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B905151A2C6D27C70025D218 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B905151B2C6D27CD0025D218 /* Managers */,
+				B9182AEF2C739830008B37E3 /* GFError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B905151B2C6D27CD0025D218 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B905151C2C6D27E20025D218 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		B99DA7D52C6A7A7D00F8F159 = {
 			isa = PBXGroup;
 			children = (
@@ -69,17 +153,11 @@
 		B99DA7E02C6A7A7D00F8F159 /* GHFollowers-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B905151A2C6D27C70025D218 /* Utilities */,
+				B90515182C6D27980025D218 /* Views */,
+				B90515162C6D27600025D218 /* Model */,
+				B90515132C6D26DD0025D218 /* Screens */,
 				B99DA7E12C6A7A7D00F8F159 /* GHFollowers_SwiftUIApp.swift */,
-				B99DA7E32C6A7A7D00F8F159 /* GHFollowersTabView.swift */,
-				B9D514B22C6A7E6300C5F790 /* SearchView.swift */,
-				B9D514B42C6A7E7500C5F790 /* FavoritesView.swift */,
-				B9D514B62C6A84E600C5F790 /* FollowerListView.swift */,
-				B9660EF02C6B9AEF00722962 /* User.swift */,
-				B9660EF22C6B9B4500722962 /* Follower.swift */,
-				B9660EF62C6BA14300722962 /* FollowerListViewModel.swift */,
-				B9660EF82C6BA81C00722962 /* FollowerDetailView.swift */,
-				B9660EFA2C6BB39900722962 /* FollowerCell.swift */,
-				B90515112C6D1C0F0025D218 /* FavoriteListCell.swift */,
 				B99DA7E52C6A7A8000F8F159 /* Assets.xcassets */,
 				B99DA7E72C6A7A8000F8F159 /* Preview Content */,
 			);
@@ -164,10 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B905151D2C6D27E20025D218 /* NetworkManager.swift in Sources */,
 				B9660EF72C6BA14300722962 /* FollowerListViewModel.swift in Sources */,
 				B9D514B52C6A7E7500C5F790 /* FavoritesView.swift in Sources */,
 				B90515122C6D1C0F0025D218 /* FavoriteListCell.swift in Sources */,
 				B9660EF92C6BA81C00722962 /* FollowerDetailView.swift in Sources */,
+				B9182AF02C739830008B37E3 /* GFError.swift in Sources */,
 				B9660EF32C6B9B4500722962 /* Follower.swift in Sources */,
 				B9D514B72C6A84E600C5F790 /* FollowerListView.swift in Sources */,
 				B9660EF12C6B9AEF00722962 /* User.swift in Sources */,
